@@ -1,0 +1,130 @@
+{
+  "dataset_id": "synthetic-insurance-retrieval-v1",
+  "synthetic_only": true,
+  "cases": [
+    {
+      "question": "What water damage does the policy exclude?",
+      "relevant_chunk_ids": ["exclusions-flood"],
+      "chunks": [
+        {
+          "chunk_id": "exclusions-flood",
+          "section_title": "Water Damage Exclusions",
+          "text": "This synthetic homeowners policy excludes flood damage and surface water entering the insured property."
+        },
+        {
+          "chunk_id": "coverage-fire",
+          "section_title": "Property Coverage",
+          "text": "The policy covers direct physical loss caused by accidental fire, subject to all limits and exclusions."
+        },
+        {
+          "chunk_id": "claims-notice",
+          "section_title": "Reporting a Claim",
+          "text": "The policyholder must give prompt notice of a loss and provide the date and location of the event."
+        },
+        {
+          "chunk_id": "deductible-wind",
+          "section_title": "Wind Deductible",
+          "text": "For a covered windstorm loss, the policyholder pays the stated wind deductible before benefits are payable."
+        },
+        {
+          "chunk_id": "repairs-emergency",
+          "section_title": "Emergency Repairs",
+          "text": "Reasonable temporary repairs may be covered when needed to protect insured property from further damage."
+        }
+      ]
+    },
+    {
+      "question": "How much must the policyholder pay first for a windstorm loss?",
+      "relevant_chunk_ids": ["deductible-wind"],
+      "chunks": [
+        {
+          "chunk_id": "deductible-wind",
+          "section_title": "Wind Deductible",
+          "text": "For a covered windstorm loss, the policyholder pays the stated wind deductible before benefits are payable."
+        },
+        {
+          "chunk_id": "exclusions-flood",
+          "section_title": "Water Damage Exclusions",
+          "text": "This synthetic homeowners policy excludes flood damage and surface water entering the insured property."
+        },
+        {
+          "chunk_id": "coverage-fire",
+          "section_title": "Property Coverage",
+          "text": "The policy covers direct physical loss caused by accidental fire, subject to all limits and exclusions."
+        },
+        {
+          "chunk_id": "claims-notice",
+          "section_title": "Reporting a Claim",
+          "text": "The policyholder must give prompt notice of a loss and provide the date and location of the event."
+        },
+        {
+          "chunk_id": "repairs-emergency",
+          "section_title": "Emergency Repairs",
+          "text": "Reasonable temporary repairs may be covered when needed to protect insured property from further damage."
+        }
+      ]
+    },
+    {
+      "question": "What information should be provided when reporting a loss?",
+      "relevant_chunk_ids": ["claims-notice"],
+      "chunks": [
+        {
+          "chunk_id": "claims-notice",
+          "section_title": "Reporting a Claim",
+          "text": "The policyholder must give prompt notice of a loss and provide the date and location of the event."
+        },
+        {
+          "chunk_id": "repairs-emergency",
+          "section_title": "Emergency Repairs",
+          "text": "Reasonable temporary repairs may be covered when needed to protect insured property from further damage."
+        },
+        {
+          "chunk_id": "coverage-fire",
+          "section_title": "Property Coverage",
+          "text": "The policy covers direct physical loss caused by accidental fire, subject to all limits and exclusions."
+        },
+        {
+          "chunk_id": "deductible-wind",
+          "section_title": "Wind Deductible",
+          "text": "For a covered windstorm loss, the policyholder pays the stated wind deductible before benefits are payable."
+        },
+        {
+          "chunk_id": "exclusions-flood",
+          "section_title": "Water Damage Exclusions",
+          "text": "This synthetic homeowners policy excludes flood damage and surface water entering the insured property."
+        }
+      ]
+    },
+    {
+      "question": "Are temporary repairs to prevent more damage covered?",
+      "relevant_chunk_ids": ["repairs-emergency"],
+      "chunks": [
+        {
+          "chunk_id": "repairs-emergency",
+          "section_title": "Emergency Repairs",
+          "text": "Reasonable temporary repairs may be covered when needed to protect insured property from further damage."
+        },
+        {
+          "chunk_id": "coverage-fire",
+          "section_title": "Property Coverage",
+          "text": "The policy covers direct physical loss caused by accidental fire, subject to all limits and exclusions."
+        },
+        {
+          "chunk_id": "claims-notice",
+          "section_title": "Reporting a Claim",
+          "text": "The policyholder must give prompt notice of a loss and provide the date and location of the event."
+        },
+        {
+          "chunk_id": "exclusions-flood",
+          "section_title": "Water Damage Exclusions",
+          "text": "This synthetic homeowners policy excludes flood damage and surface water entering the insured property."
+        },
+        {
+          "chunk_id": "deductible-wind",
+          "section_title": "Wind Deductible",
+          "text": "For a covered windstorm loss, the policyholder pays the stated wind deductible before benefits are payable."
+        }
+      ]
+    }
+  ]
+}

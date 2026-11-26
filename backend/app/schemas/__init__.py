@@ -3,8 +3,10 @@ from app.schemas.analysis import (
     ClaimAnalysisResponse,
     ComparisonRequest,
     ComparisonResponse,
+    ComparisonDimension,
     ComparisonValue,
     Finding,
+    FindingSeverity,
 )
 from app.schemas.common import ErrorDetail, ErrorResponse, SourceCitation
 from app.schemas.documents import (
@@ -13,11 +15,19 @@ from app.schemas.documents import (
     DocumentStatus,
     DocumentUploadResponse,
 )
-from app.schemas.questions import QuestionRequest, QuestionResponse, RetrievalStrategy
+from app.schemas.questions import (
+    QuestionRequest,
+    QuestionResponse,
+    RetrievalEvaluationRequest,
+    RetrievalEvaluationResponse,
+    RetrievalStrategy,
+    RetrievalStrategyMetrics,
+)
 
 __all__ = [
     "ClaimAnalysisRequest",
     "ClaimAnalysisResponse",
+    "ComparisonDimension",
     "ComparisonRequest",
     "ComparisonResponse",
     "ComparisonValue",
@@ -28,8 +38,12 @@ __all__ = [
     "ErrorDetail",
     "ErrorResponse",
     "Finding",
+    "FindingSeverity",
     "QuestionRequest",
     "QuestionResponse",
+    "RetrievalEvaluationRequest",
+    "RetrievalEvaluationResponse",
     "RetrievalStrategy",
+    "RetrievalStrategyMetrics",
     "SourceCitation",
 ]
